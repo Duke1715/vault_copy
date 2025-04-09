@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VAULT_SOURCE="dev/firstSecret"
-VAULT_TARGET="dev/firstSecret"
+VAULT_TARGET="dev/secondSecret"
 
 copy_secrets_recursively () {
   local source_path="$1"
